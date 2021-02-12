@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>jdr</title>
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/app.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+          <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+          
+    </head>
+    <body>
+        <div id="fond" >
+        <input type='file' id='getval' name="background-image" onchange="readURL(event)" /><br/><br/>
+    <!--<div class="gauche"></div> -->
+        
+        <div class="container">
+            <h1> Déchet classification</h1>
+            <div id="customButton" class="icon">Choisir le fond</div>
+        </div>
+        <span class="tooltiptext">Selectionner l'image de votre choix pour redéfinir le fond du plateau de jeu(préférer les images de dimension supérieur à  736&times;714px)</span>
+        <span id="fileName"></span> 
+       <div class="container">
+            <div id="battlefield">
+            </div>
+        </div>
+           
+        </div>
+        
+        
+
+    
+     
+    <script src="js/app.js"></script>
+
+
+</body>
+</html>
