@@ -9,7 +9,8 @@ numpy
 pandas
 scikit-learn
 tensorflow
-cv2
+
+opencv-python
 
 # tests/linter
 black
