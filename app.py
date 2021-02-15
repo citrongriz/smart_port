@@ -1,24 +1,24 @@
 import pandas as pd
 import numpy as np
 import os
-import tensorflow as tf
+#import tensorflow as tf
 import cv2
 
-from tensorflow.keras import models
-from tensorflow.keras import layers
-from tensorflow.keras import optimizers
+#from tensorflow.keras import models
+#from tensorflow.keras import layers
+#from tensorflow.keras import optimizers
 
 
-from tensorflow.keras import callbacks
+#from tensorflow.keras import callbacks
 
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, Reshape
-from  matplotlib import pyplot as plt
-import matplotlib.image as mpimg
+#from tensorflow.keras.models import Sequential
+#from tensorflow.keras.layers import Dense, Reshape
+#from  matplotlib import pyplot as plt
+#import matplotlib.image as mpimg
 #%matplotlib inline
-import random
+#import random
 import streamlit as st
-import pickle
+#import pickle
 from keras.models import model_from_json
 
 def garbage_pred(predicted_class):
