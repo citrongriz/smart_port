@@ -9,7 +9,7 @@ numpy
 pandas
 scikit-learn
 tensorflow
-
+keras
 opencv-python
 
 # tests/linter
